@@ -1,6 +1,4 @@
 # quatr-v1.0.1
-Quatr repository.
-
 Welcome to Quatr, a mobile application built with Flutter for finding apartments and managing rental payments. This repository contains the source code for the app developed by Quatr Inc.
 
 ## Features
@@ -23,7 +21,7 @@ Welcome to Quatr, a mobile application built with Flutter for finding apartments
 
 ## Getting Started
 
-To run the Real Estate App locally and explore its features, follow these steps:
+To run the App locally and explore its features, follow these steps:
 
 1. Clone this repository to your local machine using the following command:
 
@@ -43,15 +41,12 @@ To run the Real Estate App locally and explore its features, follow these steps:
 
 Please note that this app requires an active internet connection to fetch property data and enable real-time messaging and notifications.
 
-## Contributing
-
-We welcome contributions to enhance the Real Estate App and make it even more powerful. If you would like to contribute, please follow the guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute this codebase according to the terms of the license.
+This project is licensed under the [MIT License](LICENSE). 
 
 ## Contact
 
-For any inquiries or feedback, please reach out to me] at [shotayobolu@gmail.com]. We appreciate your interest in our Real Estate App!
+For any inquiries or feedback, please reach out at [shotayobolu@gmail.com]. We appreciate your interest in our Real Estate App!
 
