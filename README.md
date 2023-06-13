@@ -1,4 +1,4 @@
-quatr-v1.0.1
+DESCRIPTION
 Welcome to Quatr, a mobile application built with Flutter for finding apartments and managing rental payments. This repository contains the source code for the app developed by Quatr Inc.
 
 Features
