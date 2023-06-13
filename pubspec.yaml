@@ -1,0 +1,99 @@
+name: Quatr
+description: Quatr Realtors.
+
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.4
+  flutter_native_splash: ^2.2.19
+  get: ^4.6.5
+  url_launcher: ^6.1.11
+  image_picker: ^0.8.7+5
+  carousel_slider: ^4.2.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+
+flutter_native_splash:
+  color: "#ffffff"
+  color_dark: "#000000"
+  image: assets/images/QuatrSSLit.png
+  image_dark: assets/images/QuatrSSDark.png
+
+  android_12:
+    image: assets/images/QuatrSSLit.png
+    icon_background_color: "#ffffff"
+    image_dark: assets/images/QuatrSSDark.png
+    icon_background_color_dark: "#000000"
+  flutter_lints: ^2.0.0
+
+  android: true
+  ios: true
+  web: true
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: NotoColorEmoji
+      fonts:
+       - asset: assets/fonts/NotoColorEmoji-Regular.ttf
+  assets:
+    - "assets/images/books.png"
+    - "assets/images/credit_cardBW.png"
+    - "assets/images/fist_bump_gestureBW.png"
+    - "assets/images/house_locationBW.png"
+    - "assets/images/okay_hand_gestureBW.png"
+    - "assets/images/QuatrLogo_NBG.png"
+    - "assets/images/qLogo.png"
+    - "assets/images/QuatrSSLight.png"
+    - "assets/images/QuatrSSLit.png"
+    - "assets/images/QuatrSSDark.png"
+    - "assets/images/quatrLogoBlack.png"
+    - "assets/images/black_image.jpg"
+    - "assets/images/houseNig.jpg"
+    - "assets/images/house1.jpg"
+    - "assets/images/house2.jpg"
+    - "assets/images/house3.jpeg"
+    - "assets/images/house4.jpeg"
+    - "assets/images/house5.jpg"
+    - "assets/images/pin_drop.jpg"
+    - "assets/images/landlord1.jpg"
+    - "assets/images/boluProfile.jpg"
+    - "assets/images/blank_user.jpeg"
+    - "assets/images/rP1.jpeg"
+    - "assets/images/rp2.jpeg"
+    - "assets/images/rp3.jpg"
+    - "assets/images/rp4.jpg"
+    - "assets/images/rp5.jpeg"
+    - "assets/images/rp6.jpg"
+    - "assets/images/rp7.jpg"
+    - "assets/images/rp8.jpg"
+    - "assets/images/rp9.jpeg"
+
+
+
+flutter_icons:
+  android: true
+  ios: true
+  web: true
+  image_path_android: "assets/images/qLogo.png"
+  image_path_ios: "assets/images/qLogo.png"
+
+
+  
