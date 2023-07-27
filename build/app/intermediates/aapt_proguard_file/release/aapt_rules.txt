@@ -1,6 +1,0 @@
--keep class androidx.core.app.CoreComponentFactory { <init>(); }
--keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
--keep class androidx.startup.InitializationProvider { <init>(); }
--keep class com.example.grat_cards.MainActivity { <init>(); }
--keep class io.flutter.plugins.imagepicker.ImagePickerFileProvider { <init>(); }
--keep class io.flutter.plugins.urllauncher.WebViewActivity { <init>(); }

@@ -1,7 +1,8 @@
-import 'package:Quatr/src/features/screens/Discover/home_page.dart';
-import 'package:Quatr/src/features/screens/onboarding/on_boarding_screen.dart';
+import 'package:Quatr/src/screens/onboarding/on_boarding_screen.dart';
+import 'package:Quatr/src/providers/property_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:Quatr/src/utils/theme/theme.dart';
+import 'package:provider/provider.dart';
 
 void main() => runApp(const App());
 
@@ -12,12 +13,15 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return   MaterialApp(
-       title: "Quatr",
-      theme: BAppTheme.lightTheme,
-      darkTheme: BAppTheme.darkTheme,
-      themeMode: ThemeMode.system,
-      home:  OnBoard(),
+    return   ChangeNotifierProvider.value(
+      value: PropertyListings(),
+      child: MaterialApp(
+         title: "Quatr",
+        theme: CustomAppTheme.lightTheme,
+        darkTheme: CustomAppTheme.darkTheme,
+        themeMode: ThemeMode.system,
+        home:  AppHome(),
+      ),
     );
   }
 }
@@ -29,8 +33,7 @@ class AppHome extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
 
-    return OnBoard()
-    ;
+    return OnBoard();
   }
 
 }

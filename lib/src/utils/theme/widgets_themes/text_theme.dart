@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class BTextTheme {
+class CustomTextTheme {
 
   static TextTheme lightTextTheme = TextTheme(
-        displayMedium: GoogleFonts.montserrat(
+        displayMedium: GoogleFonts.poppins(
           color: Colors.black,
           fontSize: 24,
 
@@ -16,7 +16,7 @@ class BTextTheme {
   );
 
   static TextTheme darkTextTheme = TextTheme(
-    displayMedium: GoogleFonts.montserrat(
+    displayMedium: GoogleFonts.poppins(
       color: Colors.white,
       fontSize: 24 ,
     ),
