@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "658664071138",
+    "project_id": "quatr-69067",
+    "storage_bucket": "quatr-69067.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658664071138:android:3e6350642ddcec037b23bb",
+        "android_client_info": {
+          "package_name": "com.quatrng.com.quatr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQbNMeq-42ToMm3FNHt4l8Un5aPKGO0TE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
